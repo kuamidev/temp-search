@@ -34,7 +34,7 @@ export default function App() {
       <Box px={8} py={4}>
         <CUIAutoComplete
           label="Choose preferred work locations"
-          placeholder="Type a Country"
+          placeholder="Type a Country - like TOGO"
           onCreateItem={handleCreateItem}
           items={pickerItems}
           tagStyleProps={{
